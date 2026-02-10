@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fresh India Store Map</title>
+<link rel="manifest" href="manifest.json">
+<style>
+body{font-family:Arial;text-align:center;background:#f7f7f7;margin:0;padding:15px}
+.container{max-width:900px;margin:auto;background:#fff;padding:15px;border-radius:8px}
+.buttons a{display:block;margin:8px auto;padding:14px;background:#0066cc;color:#fff;text-decoration:none;border-radius:6px;font-size:18px}
+.image-wrapper{position:relative}
+.highlight{position:absolute;border:3px solid red;display:none}
+</style>
+</head>
+<body>
+<div class="container">
+<h2>🛒 Fresh India Woodbury – Store Layout</h2>
+<div class="image-wrapper">
+<img src="store-layout.jpg" id="storeImage" style="width:100%">
+<div id="highlightBox" class="highlight"></div>
+</div>
+<div class="buttons">
+<a href="aisles/aisle1.html">Aisle 1 – Flour</a>
+<a href="aisles/aisle2.html">Aisle 2 – Lentils</a>
+<a href="aisles/aisle3.html">Aisle 3 – Lentils</a>
+<a href="aisles/aisle4.html">Aisle 4 – Spices</a>
+<a href="aisles/aisle5.html">Aisle 5 – Spices</a>
+<a href="aisles/aisle6.html">Aisle 6 – Cooking Essentials</a>
+</div>
+</div>
+<script>
+if('serviceWorker'in navigator){navigator.serviceWorker.register('sw.js')}
+</script>
+</body>
+</html>

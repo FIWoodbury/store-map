@@ -1,0 +1,45 @@
+{
+  "1": {
+    "name": "Flour",
+    "items": [
+      "Atta",
+      "Maida",
+      "Rice Flour"
+    ]
+  },
+  "2": {
+    "name": "Lentils",
+    "items": [
+      "Toor Dal",
+      "Moong Dal"
+    ]
+  },
+  "3": {
+    "name": "Lentils",
+    "items": [
+      "Chana Dal",
+      "Urad Dal"
+    ]
+  },
+  "4": {
+    "name": "Spices",
+    "items": [
+      "Turmeric",
+      "Chili Powder"
+    ]
+  },
+  "5": {
+    "name": "Spices",
+    "items": [
+      "Garam Masala",
+      "Coriander"
+    ]
+  },
+  "6": {
+    "name": "Cooking Essentials",
+    "items": [
+      "Oil",
+      "Ghee"
+    ]
+  }
+}
